@@ -20,34 +20,6 @@ A bold, high-performance website for Triangle Media, a creative marketing agency
 - **TypeScript**: Full type safety
 - **Performance**: Image optimization, lazy loading, and code splitting
 
-## 📁 Project Structure
-
-\`\`\`
-triangle-media/
-├── app/
-│   ├── layout.tsx          # Root layout with SEO metadata
-│   ├── page.tsx            # Home page
-│   ├── services/
-│   │   └── page.tsx        # Services page
-│   └── globals.css         # Global styles
-├── components/
-│   ├── navigation.tsx      # Main navigation
-│   ├── footer.tsx          # Site footer
-│   ├── home/               # Home page components
-│   │   ├── hero.tsx
-│   │   ├── services.tsx
-│   │   ├── stats.tsx
-│   │   ├── partners.tsx
-│   │   ├── projects.tsx
-│   │   └── final-cta.tsx
-│   └── services/           # Services page components
-│       ├── services-hero.tsx
-│       └── services-masonry.tsx
-├── package.json
-├── tailwind.config.js
-└── README.md
-\`\`\`
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -58,24 +30,18 @@ triangle-media/
 ### Installation
 
 1. **Clone the repository**
-   \`\`\`bash
    git clone <repository-url>
    cd triangle-media
-   \`\`\`
 
 2. **Install dependencies**
-   \`\`\`bash
    npm install
-   # or
+   or
    yarn install
-   \`\`\`
 
 3. **Run the development server**
-   \`\`\`bash
    npm run dev
-   # or
+   or
    yarn dev
-   \`\`\`
 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
@@ -84,22 +50,8 @@ triangle-media/
 
 ### Build for Production
 
-\`\`\`bash
 npm run build
 npm run start
-\`\`\`
-
-### Deploy to Vercel
-
-1. **Install Vercel CLI**
-   \`\`\`bash
-   npm i -g vercel
-   \`\`\`
-
-2. **Deploy**
-   \`\`\`bash
-   vercel
-   \`\`\`
 
 ### Deploy to Other Platforms
 
@@ -115,17 +67,6 @@ The project can be deployed to any platform that supports Next.js:
 ### Colors
 
 The brand colors are defined in \`tailwind.config.js\`:
-
-\`\`\`js
-colors: {
-  orange: {
-    500: '#FF6A00',
-  },
-  yellow: {
-    400: '#FFC801',
-  },
-}
-\`\`\`
 
 ### Animations
 
@@ -177,24 +118,3 @@ The site is fully responsive with breakpoints:
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
-
-## 📄 License
-
-This project is proprietary and confidential. All rights reserved.
-
-## 🤝 Contributing
-
-This is a client project. For any changes or updates, please contact the development team.
-
-## 📞 Support
-
-For technical support or questions about this project, please contact:
-
-- **Email**: dev@trianglemedia.com
-- **Phone**: +1 (555) 123-4567
-
----
-
-Built with ❤️ by Triangle Media Development Team
-\`\`\`
-# TriangleMedia
